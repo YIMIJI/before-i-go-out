@@ -7,3 +7,4 @@ The App primary tracks rainfall data in SG using API data from data.gov and Goog
 ## Acknowledgements
 
 The shape files from the file "singapore-towns" were obtained from https://data.gov.sg/dataset/master-plan-2014-planning-area-boundary-web?resource_id=2ab23cb2-b1a4-4b1a-a9e1-b9cad0ac159b and the html files for the about.html and home.html are referenced heavily from https://github.com/phillyo/intelligentsia
+
