@@ -1,0 +1,169 @@
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/bg1.jpg" height="90vh" alt="1">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="fit-head">Looking to visit a certain area in Singapore?</h1>
+          <p class="fit-text">Use BIGO Live&rsquo;s interactive map to identify areas that will be raining.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" onclick="$('li:eq(2) a').tab('show');" role="button">Get started now &raquo;</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/bg2.jpg" height="90vh" alt="2">
+      <div class="container">
+  <div class="carousel-caption">
+    <h1 class="fit-head">Compare your journeys</h1>
+    <p class="fit-text">You have already identified a few locations to visit and want to know the expected journey duration?</p>
+    <a class="btn btn-lg btn-primary" onclick="$('li:eq(3) a').tab('show');" role="button">Get started now &raquo;</a>
+    <!-- <p>
+      <form>
+        <div class="form-group">
+          <input id="addr1" type="text" class="form-control" placeholder="Search now...">
+          <input id="addr2" type="text" class="form-control" placeholder="Search now...">
+        </div>
+      </form>
+    </p> -->
+  </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/bg4.jpg" height="90vh" alt="3">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="fit-head">Identify current parking spaces</h1>
+          <p class="fit-text">You have a place to visit, but don&rsquo;t know where to park?</p>
+          <p>
+            <a class="btn btn-lg btn-primary" onclick="$('li:eq(4) a').tab('show');" role="button">Get started now &raquo;</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<!-- /.carousel -->
+
+<div class="container marketing">
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+  <div class="container">
+    <h1 class="text-center fit-h1" style="font-size: 4em; margin-bottom: 30px;">Rain or Shine,<br> We got you covered!</h1>
+  </div>
+  </div>
+
+  <div class="row app-links">
+  <div class="col-md-4">
+    <img src="images/novice-01.png" width="30%" height="30%" alt="novice">
+    <h2>Novice Planner</h2>
+    <p>You have not decided a place to visit? Scared of rain ruining your plans? We are here to help you out!</p>
+    <a class="btn btn-primary" onclick="$('li:eq(2) a').tab('show');" role="button">View raining areas &raquo;</a>
+  </div><!-- /.col-md-4 -->
+  <div class="col-md-4">
+    <img src="images/veteran-01.png" width="30%" alt="veteran">
+    <h2>Veteran Planner</h2>
+    <p>Want to know how long you will take between locations given the current weather? Click here to find out more!</p>
+    <a class="btn btn-primary" onclick="$('li:eq(3) a').tab('show');" role="button">View routes and expected delays &raquo;</a>
+  </div><!-- /.col-md-4 -->
+  <div class="col-md-4">
+    <img src="images/evaluator-01.png" width="30%" alt="evaluator">
+    <h2>Car Park Locations</h2>
+    <p>Not sure where are the nearest places to park? We have all the slots for you!</p>
+    <a class="btn btn-primary" onclick="$('li:eq(4) a').tab('show');" role="button">Compare parking spots &raquo;</a>
+  </div><!-- /.col-md-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette center-on-xs">
+  <div class="col-md-5 col-md-push-7">
+    <img class="featurette-image img-responsive" src="images/data.jpg" alt = "">
+  </div>
+  <div class="col-md-7 col-md-pull-5">
+    <h2 class="featurette-heading">Before I Go Out (BIGO) Live.<br><span class="text-muted">Data-driven rain data evaluation</span></h2>
+    <p class="lead">Recently, climate change has increased its impact on the weather events of the world, resulting in more extreme weather events. Rampant hurricanes, typhoons, heat waves and snowstorms swept across various continents. And Singapore, known for its hot and humid weather, is no stranger as well to such events. Climate change has impacted Singapore’s rainfall and thus rainfall has increased drastically, flooding the streets of the little red dot. In fact, since 1980, Singapore's rainfall has been on an increasing trend (Meteorological Service Singapore).  <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseOne">Read more&hellip;</a></p>
+     <div class="panel-group transparent-panel-group" id="accordionOne">
+        <div class="panel panel-default">
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body text-left">
+              <blockquote class="blockquote">&ldquo;The nicest thing about the rain is that it always stops. Eventually..&rdquo; (Eeyore)</blockquote>
+		  <p>This app is built to tackle the issue of the ever unpredictable weather patterns in Singapore. Being able to
+                    visualise the rainfall along your route allows the user to plan their journey before even leaving the comfort of
+                    their homes.</p>    
+		  <p>The first tab gives a brief overview of what the weather is like in Singapore. It is an easy to understand interface
+                    for anyone who wants to see the current weather conditions on a macro scale.</p>  
+		  <p>The second tab allows the user to input their start and end destinations, and it helps estimate the delay the user
+                    may experience due to the current weather situation. This allows the user to better plan their schedules according
+                    to any potential delays they may experience from bad weather conditions.</p>  
+		  <p>The third tab displays the 3 carparks nearest to the destination. Information about these carparks such as lots 
+                  availability and distance are displayed, to allow for the user to plan where to park before starting their journey.</p>
+		  <p>This app is built by a team of passionate individuals with the vision to tackle the pain
+                    that is brought about by harsh weather conditions. With this app, they hope to be able to make planning your journeys
+                    interactive, convenient, and enjoyable.</p>            
+		</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette center-on-xs">
+  <div class="col-md-5">
+    <img class="featurette-image img-responsive" src="images/analysis.png" alt = "">
+  </div>
+  <div class="col-md-7">
+    <h2 class="featurette-heading">We <i class="fa fa-heart" style="color:#bf2604;"></i> Data.<br><span class="text-muted">We really, really do</span></h2>
+    <p class="lead">We compiled all the rain and route data so you don&rsquo;t have to! <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwo">Read more&hellip;</a></p>
+     <div class="panel-group transparent-panel-group" id="accordionTwo">
+        <div class="panel panel-default">
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body text-left">
+              <p>The objective of BIGO Live is to help millions of Singapore commuters, by providing accurate and accessible real time information regarding travel, consolidated into one super-app.</p>
+              <p>It is important that the application makes use of high quality, authentic data that is not doctored negligently. The application will make use of several data sources and application programming interfaces (APIs) , mostly provided free to the public by government agencies.</p>
+              <p>A plethora of data were acquired and analyzed to create the BIGO Live model. Among those data sets are:</p>
+              <ul>
+                <li>Current Weather Conditions: Rainfall Data (Data.gov API)</li>
+                <li>Forecasted Weather Conditions: 2 Hour Weather Forecast Data (Data.gov API)</li>
+                <li>Temperature Conditions: Air Temperature Data (Data.gov API)</li>
+                <li>Carpark Availability Conditions: Carpark Availability Data (Data.gov API)</li>
+                <li>Singapore Shape Data: Singapore Towns Zip File (DBA3702 Lecture 8)</li>
+                <li>Route Path: Geocoding, Spatial Routing (Google APIs)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette center-on-xs">
+    <div class="col-md-5 col-md-push-7">
+      <img class="featurette-image img-responsive" src="images/group_photo.jpg" alt = "">
+    </div>
+    <div class="col-md-7 col-md-pull-5">
+      <h2 class="featurette-heading">Introducting BIGO Live.<br><span class="text-muted">This is us!</span></h2>
+      <p class="lead">This app, the data and the model are the result of the DBA3702 project of SA2 Team 2 at National University of Singapore. <a href="#" onclick="$('li:eq(5) a').tab('show');">Read more about us&hellip;</a></p>
+    </div>
+  </div>
+
+</div>
+<!-- /END THE FEATURETTES -->
